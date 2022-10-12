@@ -7,6 +7,18 @@
     tools:context=".MainActivity">
 
     <Button
+        android:textSize="20sp"
+        android:background="@drawable/btn_round"
+        android:id="@+id/button4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="GO"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:textColor="@color/white"
         android:background="@drawable/custom_btn"
         android:textSize="20sp"
